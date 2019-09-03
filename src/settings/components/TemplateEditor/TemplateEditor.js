@@ -112,6 +112,7 @@ class TemplateEditor extends React.Component {
   };
 
   insertTokens = (tokens = []) => {
+    debugger;
     if (isEmpty(tokens)) {
       return;
     }
